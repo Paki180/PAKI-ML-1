@@ -6,7 +6,7 @@ Loaded the marketing campaign data and performed initial checks using df.head(),
 ### 2. Data Cleaning and Feature Engineering: 
 Handled missing income values by filling them with the median. Then engineered new features like Age, ChildrenCount, Family_Size, Total_Spent, Total_Purchases, and Total_Campaign_Accepted to provide more meaningful insights, also addressed outliers in 'Age' and 'Income'.
 ### 3. Exploratory Data Analysis (EDA): 
-Visualized the distributions of key features like 'Age', 'Income', and 'Total_Spent'. You also analyzed spending by product category and purchases by channel to understand customer behavior.
+Visualized the distributions of key features like 'Age', 'Income', and 'Total_Spent', also analyzed spending by product category and purchases by channel to understand customer behavior.
 ### 4. Data Preprocessing: 
 Applied log transformation to skewed numerical features to normalize their distributions, also ordinally encoded the 'Education' column and created a binary 'marital_status' column.
 ### 5. Customer Segmentation (K-Means Clustering): 
@@ -34,4 +34,4 @@ Characteristics: Similar in age to Cluster 1, but with a moderate average income
 Marketing Focus: This segment represents a solid middle ground. They are likely receptive to a mix of value and quality. Loyalty programs, personalized recommendations based on past purchases, and promotions across various product categories could be successful.
 ### Cluster 3: "High-Spending Individuals"
 Characteristics: This segment has the highest average income and the highest spending and purchase frequency among all clusters. They are typically middle-aged and have smaller family sizes.
-Marketing Focus: These are your most valuable customers. Focus on retaining them with exclusive offers, early access to new products, and premium customer service. They are likely to respond to campaigns across all channels and product types.
+Marketing Focus: These are the most valuable customers. Focus on retaining them with exclusive offers, early access to new products, and premium customer service. They are likely to respond to campaigns across all channels and product types.
